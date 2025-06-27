@@ -19,6 +19,7 @@ except ImportError:
 
 st.set_page_config(layout="wide")
 st.title("📊 Dynamic Data Visualization Dashboard")
+st.caption("Developed by Akshith🧑‍💻")
 
 # Initialize session state
 if 'original_df' not in st.session_state:
